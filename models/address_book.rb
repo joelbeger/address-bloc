@@ -5,11 +5,11 @@ require_relative 'entry'
 
       def initialize
         @entries = []
-    end
+       end
  
-end
 
-def add_entry(name, phone_number, email)
+
+    def add_entry(name, phone_number, email)
     # #9
     index = 0
     entries.each do |entry|
